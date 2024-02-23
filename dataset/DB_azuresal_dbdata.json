@@ -1,0 +1,17 @@
+{
+	"name": "DB_azuresal_dbdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "employees_last7"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

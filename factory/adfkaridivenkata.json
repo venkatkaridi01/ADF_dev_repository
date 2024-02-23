@@ -1,0 +1,9 @@
+{
+	"name": "adfkaridivenkata",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "db325d17-1bb1-4e5d-b7a2-ef885bb3be5d",
+		"tenantId": "ff355289-721e-4dd7-a663-afec62ab9d54"
+	}
+}
