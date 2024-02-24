@@ -1,0 +1,31 @@
+{
+	"name": "scheduledtrigger_testing1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "usage_setvariable",
+					"type": "PipelineReference"
+				}
+			},
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 3,
+				"startTime": "2024-02-23T16:20:00",
+				"endTime": "2024-02-23T16:28:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
