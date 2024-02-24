@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfkaridivenkata"
+		},
+		"AzureDataLakeStorage_sourcestorage_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"LS_AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"Ls_AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_sourcestorage_properties_typeProperties_url": {
+			"value": "https://sourcestrgaccount1.dfs.core.windows.net/"
+		},
+		"Ls_AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://strgaccountadf.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
